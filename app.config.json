@@ -1,0 +1,12 @@
+// type "pm2 start app.config.json" next time.
+
+{
+  "apps" : [
+    {
+      "name"       : "command-handler",
+      "script"     : "npx",
+      "interpreter": "none",
+      "args": "ts-node-dev ./Main.ts"
+    }
+  ]
+}
