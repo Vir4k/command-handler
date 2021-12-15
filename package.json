@@ -1,0 +1,19 @@
+{
+  "name": "command-handler",
+  "version": "1.0.0",
+  "private": true,
+  "description": "A Discord Bot (Eris) template from Blob Project.",
+  "main": "server.js",
+  "scripts": {
+    "start": "node server.js"
+  },
+  "dependencies": {
+    "dotenv": "^10.0.0",
+    "eris": "^0.16.1",
+    "pluris": "^0.3.7"
+  },
+  "engines": {
+    "node": ">=16.x"
+  },
+  "license": "MIT"
+}
